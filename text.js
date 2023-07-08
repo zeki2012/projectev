@@ -5,6 +5,6 @@ let b = +prompt ('Duzbucaqin B terefini Qeyd Edin');
 
 let duzbucaqpr = a * b  ;
 
-document.getElementById('dark').innerHTML = 'A terefi '+ a+ ' B terefi ise '+ b+ ' olan duzbucaqin sahesi '+  duzbucaqpr+ ' olar!';
+document.getElementById('dark').innerHTML = 'A terefi '+ a+ 'sm B terefi ise '+ b+ 'sm olan duzbucaqin sahesi '+  duzbucaqpr+ 'sm2 olar!';
 
 
