@@ -1,10 +1,10 @@
-let ucbucaq = alert('Ucbucaqin Perimetrini Tapin');
-let a = +prompt ('Ucbucaqin A terefini Qeyd Edin');
-let b = +prompt ('Ucbucaqin B terefini Qeyd Edin');
-let c = +prompt ('Ucbucaqin C terefini Qeyd Edin');
+let ucbucaq = alert('Duzbucaqlinin Sahesini Tapin');
+let a = +prompt ('Duzbucaqin A terefini Qeyd Edin');
+let b = +prompt ('Duzbucaqin B terefini Qeyd Edin');
 
-let ucbucaqpr = a + b + c ;
 
-document.getElementById('dark').innerHTML =  a, ' ',  b, ' ', c,'Bunlar ucbucaqin Terefleridir.Bu ededlerin perimetri', ucbucaqpr,'olar';
+let duzbucaqpr = a * b  ;
+
+document.getElementById('dark').innerHTML = 'A terefi '+ a+ ' B terefi ise '+ b+ ' olan duzbucaqin sahesi '+  duzbucaqpr+ ' olar!';
 
 
